@@ -17,6 +17,12 @@ public class CardPayment implements MoneyAcceptor {
 
     @Override
     public boolean paymentRecieve(int price) {
-        return false;
+        if (amount >= price) {
+            amount = amount - price;
+            return true;
+        } else {
+            System.out.println("Не достаточно средств!");
+            return false;
+        }
     }
 }
