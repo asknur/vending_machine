@@ -7,12 +7,12 @@ public class CardPayment implements MoneyAcceptor {
 
     @Override
     public int getAmount() {
-        return 0;
+        return amount;
     }
 
     @Override
     public void setAmount(int amount) {
-
+        this.amount = amount;
     }
 
     @Override
