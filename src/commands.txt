@@ -3,3 +3,4 @@
 3. Переключился на ветку home_work_25 git checkout
 4. Отправил свои коммиты на сервер git push
 5. Переключаюсь на ветку мастер git checkout master
+6. Обьеденил ветки master и home_work_25
