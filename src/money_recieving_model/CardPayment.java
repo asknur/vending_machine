@@ -2,10 +2,12 @@ package money_recieving_model;
 
 import interfaces.MoneyAcceptor;
 
+import java.util.Scanner;
+
 public class CardPayment implements MoneyAcceptor {
     @Override
     public int getAmount() {
-        return 0;
+        return 200;
     }
 
     @Override
@@ -15,6 +17,11 @@ public class CardPayment implements MoneyAcceptor {
 
     @Override
     public boolean paymentRecieve(int price) {
-        return false;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите номер карты: ");
+        int cardNum = sc.nextInt();
+        System.out.println("Введите пороль: ");
+        int cardPassword = sc.nextInt();
+        return true;
     }
 }
