@@ -1,5 +1,8 @@
 package interfaces;
 
 public interface MoneyAcceptor {
-    boolean acceptMoneys(int size);
+    int getAmount();
+    void setAmount(int amount);
+    boolean paymentRecieve(int price);
+
 }
