@@ -2,7 +2,7 @@ package money_recieving_model;
 
 import interfaces.MoneyAcceptor;
 
-public class CardPayment implements MoneyAcceptor {
+public class CoinPayment implements MoneyAcceptor {
     private int amount;
 
     @Override
