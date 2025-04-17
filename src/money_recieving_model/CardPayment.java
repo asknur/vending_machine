@@ -3,6 +3,7 @@ package money_recieving_model;
 import interfaces.MoneyAcceptor;
 
 public class CardPayment implements MoneyAcceptor {
+    private int amount;
 
     @Override
     public int getAmount() {
